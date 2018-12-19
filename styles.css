@@ -176,9 +176,32 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 483px) {
+@media only screen and (max-width: 626px) {
   .full_name {
     display: none;
+  }
+
+  .project_description {
+    font-size: 19px;
+  }
+
+  .profile_description {
+    width: 19em;
+    font-size: 22px;
+  }
+
+  .short_section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+  }
+
+  .short_sections {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
   }
 }
 
@@ -202,7 +225,7 @@ div p {
 }
 
 .profile_description {
-  width: 26%;
+  width: 19em;
   margin-right: auto;
   margin-left: auto;
 }
