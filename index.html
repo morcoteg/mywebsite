@@ -10,7 +10,7 @@
   <body>
     <ul class="topnav" id="myTopnav">
       <li class="active"><a href="index.html">Home</a></li>
-      <li class="resume"><a href="resume_gabo.pdf" target="_blank">Resume</a></li>
+      <li class="resume"><a href="Gabriel_Morcote_Creddle_resume.pdf" target="_blank">Resume</a></li>
       <li class="github"><a href="https://github.com/morcoteg" target="_blank">GitHub</a></li>
       <li class="linkedin"><a href="https://www.linkedin.com/in/gabriel-morcote-90727a98/" target="_blank">LinkedIn</a></li>
       <li class="icon"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
@@ -19,14 +19,26 @@
     <div class="container">
       <div class="section profile">
         <img src="hollygabo.jpg" class="main_image" alt="About Gabe Image">
-        <p class="profile_description">
-          Software engineer at Yello. Undergraduate degree in Computer Science from Michigan State University. Playing the violin, skiing,
-          soccer, and cooking are some of my favorite hobbies.
-        </p>
+        <div class="profile_description">
+          <p class="profile_line">
+            Software engineer at Yello. Always eager to learn new things.
+          </p>
+
+          <p class="profile_line">
+            Education: Computer Science Degree from Michigan State University.
+          </p>
+
+          <p class="profile_line">
+            Hobbies: violin, reading up on new technologies, guitar, skiing, soccer, cooking.
+          </p>
+        </div>
       </div>
       <div class="short_sections">
         <div class="section contributions short_section">
           <h2>Open Source Contributions</h2>
+          <p>Contributed to the widely used Excel generation gem, Caxlsx. <a href="https://github.com/caxlsx/caxlsx/pull/34">here.</a>
+            I introduced a security patch that blocks malicious formula-injection attacks from being inserted into spreadsheet cells.
+          </p>
           <p>Contributed to grosser's fast_gettext gem <a href="https://github.com/grosser/fast_gettext/pull/98">here.</a>
             This change allowed locales (for internationalization) with hyphens (e.g. zh-cn) to be loaded by the gem, allowing
             the same significant performance boosts the gem has to offer to be applied for these special locales.
